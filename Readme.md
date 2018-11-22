@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Yulia Belova](https://up.htmlacademy.ru/htmlcss/23/user/874815).
-* Наставник: `Неизвестно`.
+* Наставник: [Влад Башилов](https://htmlacademy.ru/profile/id167603).
 
 ---
 
