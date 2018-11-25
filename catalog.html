@@ -18,11 +18,7 @@
       </a>
       <ul class="user-navigation">
         <li class="search-link">Поиск></li>
-      </ul>
-      <ul class="user-navigation">
         <li class="bookmark-link">Закладки></li>
-      </ul>
-      <ul class="user-navigation">
         <li class="basket-link">Корзина></li>
       </ul>
       <a class="button" href="basket.html">Оформить заказ</a>
@@ -60,13 +56,60 @@
         <li><a href="tools.html">Инструмент</a></li>
         <li class="breadcrumbs-current">Перфораторы</li>
       </ul>
-      <h1 class="page title">Перфораторы</h1>
+      <h2 class="page title">Перфораторы</h2>
       <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
-        <!-- Здесь будет форма -->
+        <form class="filter" action="" method="post">
+        <fieldset>
+        	<legend>ПРОИЗВОДИТЕЛИ:</legend>
+        	<ul>
+        		<li>
+        			<input type="checkbox" name="BOSCH" id="filter-BOSCH" checked>
+        			<label for="filter-BOSCH">BOSCH
+        			</label>
+        		</li>
+        		<li>
+        			<input type="checkbox" name="ИНТЕРСКОЛ" id="filter-ИНТЕРСКОЛ">
+        			<label for="filter-ИНТЕРСКОЛ">ИНТЕРСКОЛ
+        			</label>
+        		</li>
+        		<li>
+        			<input type="checkbox" name="MAKITA" id="filter-MAKITA" checked>
+        			<label for="filter-MAKITA">MAKITA
+        			</label>
+        		</li>
+        		<li>
+        			<input type="checkbox" name="DEWALT" id="filter-DEWALT">
+        			<label for="filter-DEWALT">DEWALT
+        			</label>
+        		</li>
+        		<li>
+        			<input type="checkbox" name="HITACHI" id="filter-HITACHI">
+        			<label for="filter-HITACHI">HITACHI
+        			</label>
+        		</li>
+        	</ul>
+        </fieldset>
+        <fieldset>
+        	<legend>Питание:</legend>
+        	<ul>
+        		<li>
+        			<input type="radio" name="type-of-consuming" value="rechargeable" id="filter-rechargeable" checked>
+        			<label for="filter-rechargeable">АККУМУЛЯТОРНЫЕ
+        			</label>
+        		</li>
+        		<li>
+        			<input type="radio" name="type-of-consuming" value="networked" id="filter-networked">
+        			<label for="filter-networked">СЕТЕВЫЕ
+        			</label>
+        		</li>
+        	</ul>
+        </fieldset>
+        <button type="submit">Показать</button>
+    </form>
       </section>
       <section class="catalog">
-        <h2 class="visually-hidden">Список перфораторов</h2>
+        <h3 class="visually-hidden">Список перфораторов</h3>
         <ul class="catalog-list">
           <li class="catalog-item">
             <h3>
