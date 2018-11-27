@@ -14,26 +14,37 @@
         height="153"
         alt="Логотип компании Техномарт"
       />
-      <ul class="user-navigation">
-        <li class="search-link">Поиск></li>
-        <li class="bookmark-link">Закладки></li>
-        <li class="basket-link">Корзина></li>
+      <div>
+      	<input type="text" class="search-link" placeholder="Поиск"/>
+      </div>
+            <ul class="user-navigation">
+        <li><a href="" class="search-link">Закладки</a></li>
+        <li><a href="" class="basket-link">Корзина</a></li>
       </ul>
       <a class="button" href="basket.html">Оформить заказ</a>
-      <h1>
+      <section class="main-info-header">
+      <div>
+      	<h1>
         Интернет-магазин строительных материалов и инструментов для ремонта
       </h1>
+  	</div>
+  	<div>
       <div class="phone number">+7(812)555-05-55></div>
       <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+  </div>
+  <div>
       <ul class="user-entrence">
-        <li class="login-link">Вход></li>
+        <li>
+        	<a class="login-link" href="login.html">Войти</a>
+        </li>
+        <li>
+        	<a class="registration-link" href="registration.html">Регистрация</a>
+           <!-- Проверить момент со ссылкой выше-->
+        </li>
       </ul>
-      <ul class="user-entrence">
-        <li class="login-link">Вход></li>
-      </ul>
-      <ul class="user-registration">
-        <li class="registration-link">Регистрация></li>
-      </ul>
+  </div>
+  </section>
+
       <ul class="site-navigation">
         <li><a href="main.html">Главная</a></li>
         <li><a href="about.html">Компания</a></li>
@@ -115,5 +126,32 @@
       <p class="footer-copyright"><b>Разработано</b></p>
       <a class="button" href="htmlacademy.ru"></a>
     </footer>
+    		<section class="modal modal-map">
+    			<h2 class="visually-hidden">Как до нас добраться</h2>
+    			<p>
+    				<img src="">
+    			</p>
+    			<button class="modal-close" type="button">Закрыть</button>
+    		</section>
+              <!-- начало разметки pop-up окна-->
+              <section class="modal modal-feed-back">
+              	<h2 class="visually-hidden">Форма отбратной связи</h2>
+              <form class="feed-back-form" action="" method="post">
+              	<p class="feed-back-item">
+              		<label for="customer-name">Ваше Имя</label>
+              		<input id="customer-name" type="text" name="customer-name" value="Ваше Имя" placeholder="Имя Фамилия">
+              	</p>
+              	<p class="feed-back-item">
+              		<label for="customer-email">Ваше e-mail</label>
+              		<input id="customer-email" type="text" name="name" value="Ваш Емэйл" placeholder="email@example.com">
+              	</p>
+              	<p class="feed-back-item">
+              		<label for="email-text">Текст письма</label>
+              		<input id="email-text" type="text" name="name" value="Текст письма" placeholder="В свободной форме">
+              </p>
+              <button class="button" type="submit">Отправить</button>
+              <button class="modal-close" type="button">Закрыть</button>
+          </form>
+      </section>
   </body>
 </html>
