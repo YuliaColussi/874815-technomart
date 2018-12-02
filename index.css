@@ -15,6 +15,27 @@ a {
    text-decoration: none;
 }
 
+.button {
+    font: inherit;
+
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #ee3643;
+    border: none;
+}
+
+.button:hover {
+    background-color: #ca2c37;
+}
+
+.button:focus {
+    background-color: #ba2732;
+}
+
+
 .main-header {
     font-size: 17px;
     line-height: 18px;
@@ -40,6 +61,20 @@ a {
     color: #ffffff;
 }
 
+.login-link {
+    background-color: #ffffff;
+    color: 000000;
+}
+
+.login-link:hover {
+    background-color: #ef4350;
+}
+
+.login-link:focus {
+    background-color: #b2b2b2;
+}
+
+
 .site-navigation a:hover {
     background-color: #333333;
 }
@@ -49,34 +84,84 @@ a {
     background-color: #333333;
 }
 
+.popular-products {
+    border: 1px solid #eaeaea;
+}
+
 .brands {
     list-style: none;
+    border: 1px solid #eaeaea;
 }
 
 .companies {
     list-style: none;
 }
 
-.footer-first-navigation {
-    list-style: none;
-}
-
-.footer-second-navigation {
-    list-style: none;
-}
-
-.footer-second-navigation {
-    list-style: none;
-}
-
-
-.footer-social {
-    background-color: #f9f5f0;
-}
-
 .services {
     background-color: #f4f7f9;
 }
+
+.first-footer {
+    background-color: #32425c;
+} 
+
+.footer-first-navigation {
+    list-style: none;
+    background-color: #ee3643;
+}
+
+.footer-first-navigation:hover {
+	text-decoration: underline;
+}
+
+.footer-first-navigation:focus {
+	color: #929caa;
+}
+
+.second-footer {
+    background-color: #293449;
+} 
+
+.footer-second-navigation {
+    list-style: none;
+}
+
+.footer-second-navigation:hover {
+	text-decoration: underline;
+}
+
+.footer-second-navigation:focus {
+	color: #92856d;
+}
+
+.footer-social {
+    text-align: center;
+} 
+
+.footer-social ul {
+    list-style: none;
+} 
+
+.social-button {
+    color: #ffffff;
+} 
+
+.feed-back-item input {
+    font: inherit;
+
+    background-color: transparent;
+    border: 1px solid #d7dcde;
+}
+
+.feed-back-item input:hover {
+    border: 1px solid #b5b5b5;
+}
+
+.feed-back-item input:focus {
+	border: 1px solid #ee3643;
+}
+
+
 
 
 
