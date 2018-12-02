@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    color: black;
+    text-transform: none;
+
+    background-color: #ffffff;
+}
+
+a {
+   text-decoration: none;
+}
+
+.main-header {
+    font-size: 17px;
+    line-height: 18px;
+    color: #ffffff;
+
+    background-color: #f3f7f8;
+}
+
+.header-navigation,
+.site-navigation {
+    background-color: #293449;
+}
+
+.user-navigation,
+.user-entrance,
+.site-navigation {
+    list-style: none;
+}
+
+.user-navigation a,
+.user-entrance a,
+.site-navigation a {
+    color: #ffffff;
+}
+
+.site-navigation a:hover {
+    background-color: #333333;
+}
+
+.site-navigation a:focus {
+	color: #999999;
+    background-color: #333333;
+}
+
+.brands {
+    list-style: none;
+}
+
+.companies {
+    list-style: none;
+}
+
+.footer-first-navigation {
+    list-style: none;
+}
+
+.footer-second-navigation {
+    list-style: none;
+}
+
+.footer-second-navigation {
+    list-style: none;
+}
+
+
+.footer-social {
+    background-color: #f9f5f0;
+}
+
+.services {
+    background-color: #f4f7f9;
+}
+
+
+
