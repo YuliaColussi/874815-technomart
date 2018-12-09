@@ -161,7 +161,47 @@ a {
 	border: 1px solid #ee3643;
 }
 
+/* ----- Сеточные стили ----- */
 
 
+html,
+body {
+	min-width: 1122px;
+	min-height: 1750px;
+}
+
+.main-header {
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+.main-header-wrapper {
+	margin-bottom: 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.user-navigation {
+	width: 938px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.user-entrance {
+	width: 886px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-navigation {
+	width: 938px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 
