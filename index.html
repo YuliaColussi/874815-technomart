@@ -9,52 +9,43 @@
    </head>
    <body>
       <header class="main-header">
-      <div class="headerWrapper">
       	<div class="mainNav">
-      	<div class="content_wrapper">
-      	<div class="mainNav_block">
+      	<div class="contentWrapper">
          <nav class="header-navigation">
-            <img
-               class="header-logo"
-               src="img/technomart-logo.png"
-               width="221"
-               height="46"
-               alt="Логотип компании Техномарт"
-               />
+            
+                    <a href="#" class='header-logo'>logo</a>
             <div>
                <input type="text" class="search-link" placeholder="Поиск"/>
             </div>
-            <ul class="user-navigation">
-               <li><a href="" class="search-link">Закладки</a></li>
-               <li><a href="" class="basket-link">Корзина</a></li>
-            </ul>
-            <a class="button" href="basket.html">Оформить заказ</a>
+            <div class="basketHolder">
+            <div class="basket__item">закладки</div>
+            <div class="basket__item">корзина</div>
+            <div class="basket__item">заказ</div>
+        </div>
          </nav>
      </div>
- </div>
 </div>
-         <div class="main-header-wrapper">
+
+         <div class="contentWrapper">
          <section class="main-info-header">
             <div>
-               <h1>
+               <h1 class="middle-content">
                   Интернет-магазин строительных материалов и инструментов для ремонта
                </h1>
             </div>
-            <div>
+            <div class="middle-content">
                <div class="phone number">+7(812)555-05-55></div>
                <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
             </div>
-            <div>
-               <ul class="user-entrence">
-                  <li>
-                     <a class="login-link" href="#">Войти</a>
-                  </li>
-                  <li>
-                     <a class="login-link" href="#">Регистрация</a>
-                  </li>
-               </ul>
+            <div class="middle-content">
+                     <a><button class="login-link" href="#">Войти</button></a>
+                     <a><button class="login-link" href="#">Регистрация</button></a>
             </div>
          </section>
+     </div>
+			<div class='bottom'>
+            <div class="contentWrapper">
+            <div class='navHolder'>
          <ul class="site-navigation">
             <li><a href="main.html">Главная</a></li>
             <li><a href="about.html">Компания</a></li>
@@ -66,14 +57,18 @@
          </ul>
      </div>
  </div>
+</div>
+
       </header>
+	<div class="contentWrapper">
       <main>
          <section class="popular-products">
             <div class="descriprion-section">
                <h2>ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
                <a class="button" href="#">ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ</a>
             </div>
-            <article class="catalog-item-one">
+            	<div class="catalog-items">
+            <article class="catalog-item">
                <h3>
                   <a href="catalog-item.html"></a>
                   <span class="catalog-category">Перфоратор BOSCH</span>
@@ -94,7 +89,7 @@
                   <span class="final-price">25500 Р.</span>
                </div>
             </article>
-            <article class="catalog-item-two">
+            <article class="catalog-item">
                <h3>
                   <a href="catalog-item.html">
                   <span class="catalog-category">Перфоратор BOSCH</span>
@@ -104,7 +99,7 @@
                <p>
                   <a href="catalog-item.html">
                   <img
-                     src="img/img/second-product-main.jpg"
+                     src="img/second-product-main.jpg"
                      width="127"
                      height="112"
                      alt="Перфоратор BOSCH BFG 3000"
@@ -116,7 +111,7 @@
                   <span class="final-price">15500 Р.</span>
                </div>
             </article>
-            <article class="catalog-item-three">
+            <article class="catalog-item">
                <h3>
                   <a href="catalog-item.html">
                   <span class="catalog-category">Перфоратор BOSCH</span>
@@ -138,7 +133,7 @@
                   <span class="final-price">22500 Р.</span>
                </div>
             </article>
-            <article class="catalog-item-four">
+            <article class="catalog-item">
                <h3>
                   <a href="catalog-item.html"></a>
                   <span class="catalog-category">Перфоратор BOSCH</span>
@@ -159,13 +154,15 @@
                </div>
             </article>
          </section>
-         <section class="brands">
+
+         <section class="main-brands">
             <div class="descriprion-section">
                <h2>ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ</h2>
                <a class="button" href="#">ВСЕ ПРОИЗВОДИТЕЛИ</a>
             </div>
+            <div class="brands">
             <ul class="brands">
-               <li>
+               <li class="brand">
                   <a href="#">
                   <img
                      src="img/bosch.png"
@@ -175,7 +172,7 @@
                      />
                   </a>
                </li>
-               <li>
+               <li class="brand">
                   <a href="#">
                   <img
                      src="img/Makita.png"
@@ -185,7 +182,7 @@
                      />
                   </a>
                </li>
-               <li>
+               <li class="brand">
                   <a href="#">
                   <img
                      src="img/DeWALT.png"
@@ -195,7 +192,7 @@
                      />
                   </a>
                </li>
-               <li>
+               <li class="brand">
                   <a href="#">
                   <img
                      src="img/Интерскол.png"
@@ -205,7 +202,7 @@
                      />
                   </a>
                </li>
-               <li>
+               <li class="brand">
                   <a href="#">
                   <img
                      src="img/Hitachi.png"
@@ -215,7 +212,7 @@
                      />
                   </a>
                </li>
-               <li>
+               <li class="brand">
                   <a href="#">
                   <img
                      src="img/LG.png"
@@ -225,7 +222,7 @@
                      />
                   </a>
                </li>
-               <li>
+               <li class="brand">
                   <a href="#">
                   <img
                      src="img/AEG.png"
@@ -235,7 +232,7 @@
                      />
                   </a>
                </li>
-               <li>
+               <li class="brand">
                   <a href="#">
                   <img
                      src="img/Metabo.png"
@@ -246,7 +243,9 @@
                   </a>
                </li>
             </ul>
+        </div>
          </section>
+
          <section class="services">
             <h2>СЕРВИСЫ</h2>
             <p>
@@ -292,6 +291,7 @@
             <a class="button" href="message.html">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</a>
          </section>
       </main>
+  </div>
       <footer class="first-footer">
          <img
             class="header-logo"
