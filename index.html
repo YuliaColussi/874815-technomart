@@ -9,6 +9,10 @@
    </head>
    <body>
       <header class="main-header">
+      <div class="headerWrapper">
+      	<div class="mainNav">
+      	<div class="content_wrapper">
+      	<div class="mainNav_block">
          <nav class="header-navigation">
             <img
                class="header-logo"
@@ -26,6 +30,9 @@
             </ul>
             <a class="button" href="basket.html">Оформить заказ</a>
          </nav>
+     </div>
+ </div>
+</div>
          <div class="main-header-wrapper">
          <section class="main-info-header">
             <div>
@@ -58,6 +65,7 @@
             <li><a href="contacts.html">Контакты</a></li>
          </ul>
      </div>
+ </div>
       </header>
       <main>
          <section class="popular-products">
@@ -329,14 +337,14 @@
          <p class="footer-copyright"><b>Разработано</b></p>
          <a class="button" href="htmlacademy.ru"></a>
       </footer>
-      <section class="modal modal-map">
+      <!-- начало разметки pop-up окна-->
+       <section class="modal modal-map">
          <h2 class="visually-hidden">Как до нас добраться</h2>
          <p>
             <img src="">
          </p>
          <button class="modal-close" type="button">Закрыть</button>
       </section>
-      <!-- начало разметки pop-up окна-->
       <section class="modal modal-feed-back">
          <h2 class="visually-hidden">Форма отбратной связи</h2>
          <form class="feed-back-form" action="" method="post">
@@ -353,7 +361,9 @@
                <input id="email-text" type="text" name="name" value="Текст письма" placeholder="В свободной форме">
             </p>
             <button class="button" type="submit">Отправить</button>
+            <section class="modal feed-back">
             <button class="modal-close" type="button">Закрыть</button>
+        </section>
          </form>
       </section>
    </body>

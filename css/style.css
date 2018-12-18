@@ -168,12 +168,109 @@ html,
 body {
 	min-width: 1122px;
 	min-height: 1750px;
+     margin: 0;
+    color: white;
 }
 
+
+.contentWrapper {
+    width: 940px;
+    margin: 0 auto;
+    color: red;
+}
+
+.servicesWrapper {
+    background: #eee;
+}
+
+.headerWrapper {
+    background: #ccc;
+
+}
+
+.servicesTitle {
+    padding: 20px;
+    text-transform: uppercase;
+    background: green
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.mainNav {
+    background: #293449;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center
+}
+
+.basketHolder {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end
+}
+
+.basket__item {
+    padding: 10px;
+}
+
+.middleContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.middle__content {
+    padding: 50px;
+    
+}
+
+.bottomNav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomNav li{
+    padding: 15px;
+    text-align: center;
+    flex: 1 1 auto;
+}
+
+.navHolder {
+    background: #293449;
+}
+
+.bottom {
+    padding-bottom: 40px;
+
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 5px;
+}
+
+.card {
+
+    padding: 40px;
+    border: 1px solid #000;
+    width: 140px;
+}
+
+/*;
 .main-header {
 	width: 100%;
 	margin-bottom: 60px;
 }
+
 
 .main-header-wrapper {
 	margin-bottom: 60px;
@@ -204,4 +301,109 @@ body {
     padding: 0;
 }
 
+/* Всплывающая форма */
 
+/*.modal  {
+	position: fixed;
+
+	color: #000000;
+
+	background-color: #ffffff;
+	background-position: 0 0;
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+}
+
+.modal-feed-back {
+	bottom: 168px;
+	left: 50%;
+
+	width: 518px;
+	margin-left: -259px;
+    padding: 69px 32px;
+    border-top: 3px solid #ef3644;
+}
+
+
+/* .modal-feed-back::before {
+    top: -3px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #ef3644;
+    content: '';
+    display: block;
+}
+*/
+
+ /*.modal-close {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 22px;
+    height: 22px;
+
+    background-color: transparent;
+    border: 0;
+
+    font-size: 0;
+
+
+    cursor: pointer;
+}
+
+.modal-close::before,
+.modal-close::after {
+  
+  content: "";
+
+  position: absolute;
+  top: 10px;
+  left: 2px;
+
+  width: 19px;
+  height: 3px;
+
+background-color: #ef3644;
+}
+
+.modal-close::before {
+    transform: rotate(45deg);
+}
+
+.modal-close::after {
+    transform: rotate(-45deg);
+}
+
+.feed-back-item {
+    margin: 0;
+    margin-bottom: 10px;
+
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.feed-back-item p {
+      margin: 0;
+      margin-bottom: 10px;
+}
+
+.feed-back-item input[type="text"], 
+.feed-back-item input[type="password"] {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 10px 15px;
+    padding-right: 40px;
+
+    font: inherit;
+    color: red;
+    text-transform: lowercase;
+}
+
+*/
+
+/*.customer-name .customer-email {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+}
+*/
